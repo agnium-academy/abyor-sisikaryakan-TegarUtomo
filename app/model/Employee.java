@@ -9,7 +9,10 @@ public abstract class Employee {
     String nama;
     String alamat;
 
-    public Employee() {
+    public Employee(Integer id, String nama, String alamat) {
+        this.id = id;
+        this.nama = nama;
+        this.alamat = alamat;
     }
 
     public Integer getId() {
